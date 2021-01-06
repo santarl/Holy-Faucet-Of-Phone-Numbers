@@ -25743,5 +25743,7 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.SetFullscreenQuality,
 	cr.plugins_.Browser.prototype.cnds.IsFullscreen,
 	cr.plugins_.Sprite.prototype.acts.SetVisible,
-	cr.plugins_.Text.prototype.acts.SetVisible
+	cr.plugins_.Text.prototype.acts.SetVisible,
+	cr.plugins_.Touch.prototype.cnds.OnDoubleTapGesture,
+	cr.plugins_.Text.prototype.cnds.IsVisible
 ];};
