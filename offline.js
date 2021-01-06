@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1609950389,
+	"version": 1609954366,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -8,6 +8,7 @@
 		"images/button-sheet0.png",
 		"images/particles.png",
 		"images/blue-sheet0.png",
+		"images/blue-sheet1.png",
 		"images/notifybox-sheet0.png",
 		"images/notifyboxplatform-sheet0.png",
 		"images/tap-sheet0.png",

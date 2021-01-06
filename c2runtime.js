@@ -25699,14 +25699,14 @@ cr.behaviors.Pin = function(runtime)
 	behaviorProto.exps = new Exps();
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Audio,
 	cr.plugins_.Browser,
-	cr.plugins_.Mouse,
-	cr.plugins_.Keyboard,
+	cr.plugins_.Audio,
 	cr.plugins_.Particles,
+	cr.plugins_.Keyboard,
+	cr.plugins_.Mouse,
+	cr.plugins_.Sprite,
 	cr.plugins_.Text,
 	cr.plugins_.Touch,
-	cr.plugins_.Sprite,
 	cr.behaviors.Physics,
 	cr.behaviors.Pin,
 	cr.system_object.prototype.cnds.OnLayoutStart,
@@ -25716,6 +25716,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Touch.prototype.cnds.OnHoldGestureObject,
 	cr.plugins_.Particles.prototype.acts.SetSpraying,
 	cr.system_object.prototype.acts.Wait,
+	cr.plugins_.Audio.prototype.cnds.IsAnyPlaying,
 	cr.plugins_.Audio.prototype.acts.Play,
 	cr.plugins_.Touch.prototype.cnds.IsInTouch,
 	cr.plugins_.Audio.prototype.acts.StopAll,
@@ -25748,6 +25749,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Touch.prototype.cnds.OnDoubleTapGesture,
 	cr.plugins_.Text.prototype.cnds.IsVisible,
 	cr.plugins_.Particles.prototype.acts.SetRate,
-	cr.plugins_.Particles.prototype.acts.SetInitSpeed,
-	cr.system_object.prototype.acts.SetLayoutScale
+	cr.plugins_.Sprite.prototype.acts.SetAnim,
+	cr.plugins_.Browser.prototype.cnds.IsPortraitLandscape,
+	cr.plugins_.Browser.prototype.acts.Alert
 ];};
