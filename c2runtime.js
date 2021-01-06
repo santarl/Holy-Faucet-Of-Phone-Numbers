@@ -25749,7 +25749,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Touch.prototype.cnds.OnDoubleTapGesture,
 	cr.plugins_.Text.prototype.cnds.IsVisible,
 	cr.plugins_.Particles.prototype.acts.SetRate,
-	cr.plugins_.Sprite.prototype.acts.SetAnim,
 	cr.plugins_.Browser.prototype.cnds.IsPortraitLandscape,
 	cr.plugins_.Browser.prototype.acts.Alert
 ];};
