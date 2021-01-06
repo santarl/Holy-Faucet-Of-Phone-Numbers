@@ -25701,12 +25701,12 @@ cr.behaviors.Pin = function(runtime)
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Audio,
 	cr.plugins_.Browser,
+	cr.plugins_.Mouse,
 	cr.plugins_.Keyboard,
 	cr.plugins_.Particles,
-	cr.plugins_.Mouse,
+	cr.plugins_.Text,
 	cr.plugins_.Touch,
 	cr.plugins_.Sprite,
-	cr.plugins_.Text,
 	cr.behaviors.Physics,
 	cr.behaviors.Pin,
 	cr.system_object.prototype.cnds.OnLayoutStart,
@@ -25740,10 +25740,14 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Text.prototype.acts.Destroy,
 	cr.plugins_.Sprite.prototype.acts.Destroy,
 	cr.plugins_.Browser.prototype.acts.RequestFullScreen,
+	cr.system_object.prototype.cnds.IsMobile,
 	cr.system_object.prototype.acts.SetFullscreenQuality,
 	cr.plugins_.Browser.prototype.cnds.IsFullscreen,
 	cr.plugins_.Sprite.prototype.acts.SetVisible,
 	cr.plugins_.Text.prototype.acts.SetVisible,
 	cr.plugins_.Touch.prototype.cnds.OnDoubleTapGesture,
-	cr.plugins_.Text.prototype.cnds.IsVisible
+	cr.plugins_.Text.prototype.cnds.IsVisible,
+	cr.plugins_.Particles.prototype.acts.SetRate,
+	cr.plugins_.Particles.prototype.acts.SetInitSpeed,
+	cr.system_object.prototype.acts.SetLayoutScale
 ];};
