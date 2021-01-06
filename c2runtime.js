@@ -25740,5 +25740,8 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Text.prototype.acts.Destroy,
 	cr.plugins_.Sprite.prototype.acts.Destroy,
 	cr.plugins_.Browser.prototype.acts.RequestFullScreen,
-	cr.system_object.prototype.acts.SetFullscreenQuality
+	cr.system_object.prototype.acts.SetFullscreenQuality,
+	cr.plugins_.Browser.prototype.cnds.IsFullscreen,
+	cr.plugins_.Sprite.prototype.acts.SetVisible,
+	cr.plugins_.Text.prototype.acts.SetVisible
 ];};
