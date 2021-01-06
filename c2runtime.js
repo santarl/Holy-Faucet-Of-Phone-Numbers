@@ -25735,7 +25735,6 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.exps.round,
 	cr.plugins_.Text.prototype.exps.Text,
 	cr.system_object.prototype.acts.SetLayerEffectParam,
-	cr.plugins_.Keyboard.prototype.cnds.OnKey,
 	cr.plugins_.Touch.prototype.cnds.OnTapGestureObject,
 	cr.plugins_.Browser.prototype.acts.Reload,
 	cr.plugins_.Text.prototype.acts.Destroy,
